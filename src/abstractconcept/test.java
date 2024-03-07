@@ -2,6 +2,9 @@ package abstractconcept;
 
 public class test {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -16,7 +19,8 @@ public class test {
 		obj2.debit();
 		obj2.loan();
 		
-		
+		//this scenario is regarding the overloading the main method
+		Mainoverload.main(args);
 	}
 
 }

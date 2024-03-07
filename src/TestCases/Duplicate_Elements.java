@@ -46,12 +46,13 @@ public class Duplicate_Elements {
 		}
 		//get values from hashmap
 		
-		Set<Entry<String, Integer>> entryset = Storemap.entrySet();
-		for(Entry<String,Integer> entry:entryset)
+		//Set<Entry<String, Integer>> entryset = Storemap.entrySet();
+		for(Entry<String,Integer> entry:Storemap.entrySet())
 		{
 			if(entry.getValue()>1)
 				System.out.println("The Duplicate Element is : "+ entry.getKey());
 		}
+		 
 	}
 
 }
