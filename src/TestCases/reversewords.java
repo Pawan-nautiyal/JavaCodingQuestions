@@ -17,8 +17,8 @@ public class reversewords {
 	public static void reverse_words(String str)
 	{
 		//str.trim();
-		//String []sen =str.split("\\s+");
-		String []sen=str.split("[ ]+");
+		String []sen =str.split("\\s+");
+		//String []sen=str.split("[ ]+");
 		String ret="";
 		for(int i=sen.length-1;i>=0;i--)
 			ret=ret+sen[i]+" ";
