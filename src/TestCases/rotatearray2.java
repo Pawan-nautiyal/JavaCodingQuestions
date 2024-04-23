@@ -26,8 +26,8 @@ rotate 2 steps to the right: [3,99,-1,-100]
 	
 	
 	public static void main(String[] args) {
-		int [] num1= {1,2,3,4,5,6,7};
-		int k=3;
+		int [] num1= {1,2,3,4,5};
+		int k=7;
 		System.out.println(Arrays.toString(rotatearray(num1,k)));
 		
 	}
